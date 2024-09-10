@@ -1,0 +1,62 @@
+/*
+Paleta de Cores do mais escuro pro mais claro:
+
+#171a4a
+#a65273
+#d78ca2
+#808080
+#a0a0a0
+*/
+
+.color-1 { background-color:#171a4a ; }
+.color-1 { background-color:#a65273 ; }
+.color-2 { background-color:#d78ca2; }
+.color-3 { background-color:#808080 ; }
+.color-4 { background-color:#a0a0a0 ; }
+
+
+body{
+    background-color: #a0a0a0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+header{
+
+}
+
+p {
+
+}
+
+h1,h2,h3{
+
+}
+
+/* Menu/*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
