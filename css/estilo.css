@@ -100,7 +100,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#171a4a ;
+    background-color:black ;
+}
+
+.texto {
+    color: black;
 }
   
 li {
@@ -116,7 +120,7 @@ li a {
 }
   
 li a:hover {
-    background-color: :#171a4a ;
+    background-color: #171a4a ;
 }
 
 
@@ -140,3 +144,26 @@ li a:hover {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #a65273;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    background-color: #171a4a;
+  }
+  .alignc{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
