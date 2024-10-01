@@ -21,18 +21,34 @@ body{
     margin-right: 10%;
 }
 
-
+section{
+    padding: 3%;
+  }  
 
 header{
+    background-color: #FFE4E1;
+    padding: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   }
 
-}
 
 p {
 
 }
 
-h1,h2,h3{
-
+h1{
+    color:#415d1a;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+h2{
+    color:#415d1a;
+    font-size: 1.5rem;
+    opacity: 50%;
 }
 
 /* Menu/*/
@@ -57,6 +73,6 @@ li a {
 }
   
 li a:hover {
-    background-color: #111;
+    background-color: :#171a4a ;
 }
 
