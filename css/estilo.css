@@ -25,6 +25,7 @@ section{
     padding: 3%;
   }  
 
+/*Header*/
 header{
     background-color: #FFE4E1;
     padding: 3%;
@@ -34,6 +35,36 @@ header{
     margin-bottom: 5%;
 }
 
+.imgfigure{
+    float:left;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  
+  .pfigure {
+    padding-bottom: 3%;
+    text-align: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 3%;
+    color: black;
+  }
+  
+  .h1 header{
+    color:black;
+    font-size: 2rem;
+    text-align: left;
+  }
+  
+  .h2 header{
+    color:black;
+    font-size: 1.5rem;
+    opacity: 50%;
+  }
+  
  p{
     font-family: 'Trocchi', Roboto, 'Times New Roman', Times, serif;
  }
@@ -54,6 +85,14 @@ div {
     flex-grow: 1;
     flex-basis: 300px;
     padding: 0 20px;
+}
+
+nav{
+    display: flex;  /*flexivel */
+    flex-direction: column;  /*um em baixo do outro */ 
+    align-items: center;
+    background-color:  ;
+    padding: 35px;
 }
 /* Menu/*/
 ul {
@@ -80,3 +119,24 @@ li a:hover {
     background-color: :#171a4a ;
 }
 
+
+/*Definições sobre o Contato*/
+.contato{
+    background-color:#FFE ;
+    padding: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  
+/*Definições sobre mim*/
+.sobre{  
+    background-color:#FFE ;
+    padding: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
